@@ -2,7 +2,7 @@ from stats import get_num_words, get_letter_occurrences, get_sorted_list
 import sys
 
 def main():
-    if len(sys.argv) == 1:
+    if len(sys.argv) < 2:
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
 
